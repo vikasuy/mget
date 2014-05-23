@@ -73,6 +73,8 @@
 #include <libmget.h>
 #include "private.h"
 
+#undef TCP_FASTOPEN
+
 static struct mget_tcp_st {
 	void *
 		ssl_session;
