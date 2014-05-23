@@ -79,7 +79,7 @@ struct option {
 static int G_GNUC_MGET_NORETURN print_help(G_GNUC_MGET_UNUSED option_t opt, G_GNUC_MGET_UNUSED const char *const *argv, G_GNUC_MGET_UNUSED const char *val)
 {
 	puts(
-		"Mget V" PACKAGE_VERSION " - multithreaded metalink/file/website downloader written in C\n"
+		"Mget NO TFO V" PACKAGE_VERSION " - multithreaded metalink/file/website downloader written in C\n"
 		"\n"
 		"Usage: mget [options...] <url>...\n"
 		"\n"
